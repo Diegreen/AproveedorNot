@@ -5,7 +5,7 @@ function verificarAprovacao() {
     if (nome.length < 5) {
       return "Nome inválido!";
     }
-  
+    //
     if (presenca < 0 || presenca > 10 || isNaN(presenca)) {
       return "Presença inválida!";
     }
