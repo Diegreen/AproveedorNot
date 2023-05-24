@@ -18,7 +18,7 @@ function verificarAprovacao() {
         return "Nota inválida!";
       }
   
-      notas.push(nota);
+      notas.push(nota)
     }
   
     let somaNotas = notas.reduce((acc, nota) => acc + nota, 0);
